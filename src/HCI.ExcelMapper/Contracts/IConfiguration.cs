@@ -1,5 +1,4 @@
-﻿using System;
-namespace HCI.ExcelMapper.Contracts
+﻿namespace HCI.ExcelMapper.Contracts
 {
 	public interface IConfiguration
 	{

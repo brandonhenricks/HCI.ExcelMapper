@@ -77,6 +77,17 @@
 
 					if (columnMap is null) continue;
 
+					var value = string.Empty;
+
+					if (columnMap.NormalizeValue)
+					{
+						value = row[column].ToString().Trim();
+					}
+					else
+					{
+						value = row[column].ToString();
+					}
+
 					jObject.Add(new JProperty(columnMap.PropertyName, row[column].ToString()));
 
 					colIndex++;

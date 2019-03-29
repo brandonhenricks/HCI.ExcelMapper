@@ -73,6 +73,7 @@ namespace HCI.ExcelMapper
 
 		/// <summary>
 		/// Removes the <paramref name="columnMap"/> from <see cref="Maps"/>
+		/// </summary>
 		/// <param name="columnMap">Column map.</param>
 		public void Remove(IColumnMap columnMap)
 		{
